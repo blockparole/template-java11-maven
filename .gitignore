@@ -1,0 +1,22 @@
+# ignore all files
+*
+# but include directories
+!*/
+
+# git
+!/*/.gitkeep
+!/.gitignore
+
+# github
+!/.github/**
+
+# java
+!/pom.xml
+!/src/**
+
+# idea
+!/.idea/runConfigurations/**
+
+# misc
+!/*.md
+!/.editorconfig

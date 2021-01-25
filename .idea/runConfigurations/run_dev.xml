@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="run dev" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/target/template-java11-maven.jar" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <method v="2">
+      <option name="RunConfigurationTask" enabled="true" run_configuration_name="build dev" run_configuration_type="MavenRunConfiguration" />
+    </method>
+  </configuration>
+</component>
