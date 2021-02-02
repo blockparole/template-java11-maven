@@ -4,19 +4,22 @@
 !*/
 
 # git
-!/*/.gitkeep
+!/**/.gitkeep
 !/.gitignore
 
 # github
 !/.github/**
 
-# java
-!/pom.xml
-!/src/**
-
 # idea
 !/.idea/runConfigurations/**
 
+# java
+!/**/pom.xml
+!/**/src/**
+
+# docker
+!/**/Dockerfile
+
 # misc
-!/*.md
-!/.editorconfig
+!/**/*.md
+!/**/.editorconfig
