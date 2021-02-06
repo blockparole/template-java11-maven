@@ -1,4 +1,4 @@
-package not.hub.project;
+package cc.neckbeard.project;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
