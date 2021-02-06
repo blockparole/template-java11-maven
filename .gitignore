@@ -14,8 +14,16 @@
 !/.idea/runConfigurations/**
 
 # java
-!/**/pom.xml
 !/**/src/**
+# maven
+!/**/pom.xml
+# gradle
+!/build.gradle
+!/gradle.properties
+!/gradle/wrapper/gradle-wrapper.properties
+!/gradlew
+!/gradlew.bat
+!/settings.gradle
 
 # docker
 !/**/Dockerfile
@@ -23,3 +31,4 @@
 # misc
 !/**/*.md
 !/**/.editorconfig
+!/LICENSE
