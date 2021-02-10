@@ -1,7 +1,5 @@
 ## template-java11-maven
 
-[![maven central](https://maven-badges.herokuapp.com/maven-central/cc.neckbeard/PROJECT/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cc.neckbeard/PROJECT)
-
 ---
 
 Now, this is a story all about how  
