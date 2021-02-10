@@ -10,7 +10,6 @@
   <packaging>jar</packaging>
 
   <name>${project.artifactId}</name>
-  <description>Some template for Java 11.</description>
 
   <scm>
     <connection>scm:git:git://github.com/nothub/PROJECT.git</connection>
