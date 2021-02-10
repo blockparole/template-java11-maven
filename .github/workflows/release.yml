@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-      - name: checkout changes
+      - name: checkout
         uses: actions/checkout@v2
 
       - name: get commit info
@@ -28,24 +28,24 @@ jobs:
           draft: false
           prerelease: false
 
-      - name: prepare java 11
+      - name: java
         uses: actions/setup-java@v1
         with:
           java-version: 11
 
-      - name: prepare depdendency cache
+      - name: cache
         uses: actions/cache@v2
         with:
           path: ~/.m2
           key: '${{ runner.os }}-m2-${{ hashFiles(''**/pom.xml'') }}'
           restore-keys: '${{ runner.os }}-m2'
 
-      - name: run maven package
-        run: mvn --batch-mode --show-version --errors --file pom.xml
+      - name: package
+        run: mvn clean package --batch-mode --show-version --errors --file pom.xml
 
       - name: upload release asset
         uses: csexton/release-asset-action@v2
         with:
-          file: target/template-java11-maven.jar
+          pattern: "target/*-release.jar"
           github-token: ${{ secrets.GITHUB_TOKEN }}
           release-url: ${{ steps.create_release.outputs.upload_url }}

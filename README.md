@@ -1,4 +1,6 @@
-# template-java11-maven
+## template-java11-maven
+
+[![maven central](https://maven-badges.herokuapp.com/maven-central/cc.neckbeard/PROJECT/badge.svg)](https://maven-badges.herokuapp.com/maven-central/cc.neckbeard/PROJECT)
 
 ---
 
@@ -18,11 +20,11 @@ In west Philadelphia born and raised
 
 ### When a couple of guys who were up to no good
 
-## Started making trouble in my neighborhood
+### Started making trouble in my neighborhood
 
-# I got in one little fight and my mom got scared
+### I got in one little fight and my mom got scared
 
-# *She said 'You're movin' with your auntie and uncle in Bel Air'*
+### *She said 'You're movin' with your auntie and uncle in Bel Air'*
 
 ---
 

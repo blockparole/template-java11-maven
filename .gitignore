@@ -10,9 +10,6 @@
 # github
 !/.github/**
 
-# idea
-!/.idea/runConfigurations/**
-
 # java
 !/**/src/**
 # maven
@@ -30,5 +27,5 @@
 
 # misc
 !/**/*.md
-!/**/.editorconfig
+!/.editorconfig
 !/LICENSE
