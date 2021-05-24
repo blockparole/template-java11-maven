@@ -10,6 +10,12 @@
   <packaging>jar</packaging>
 
   <name>${project.artifactId}</name>
+  <licenses>
+    <license>
+      <name>MIT License</name>
+      <url>https://mit-license.org/</url>
+    </license>
+  </licenses>
 
   <scm>
     <connection>scm:git:git://github.com/nothub/template-java-maven-fat-jar.git</connection>
