@@ -11,12 +11,6 @@
 
   <name>${project.artifactId}</name>
 
-  <scm>
-    <connection>scm:git:git://github.com/nothub/PROJECT.git</connection>
-    <developerConnection>scm:git:ssh://github.com/nothub/PROJECT.git</developerConnection>
-    <url>https://github.com/nothub/PROJECT</url>
-  </scm>
-
   <properties>
     <java.version>1.8</java.version>
     <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -62,8 +56,8 @@
           <descriptorRefs>
             <descriptorRef>jar-with-dependencies</descriptorRef>
           </descriptorRefs>
-          <finalName>${project.artifactId}-${project.version}-release</finalName>
-          <appendAssemblyId>false</appendAssemblyId>
+          <!-- <finalName>${project.artifactId}-${project.version}-release</finalName>
+          <appendAssemblyId>false</appendAssemblyId> -->
         </configuration>
       </plugin>
     </plugins>
@@ -96,6 +90,11 @@
   </repositories>
 
   <dependencies>
+    <dependency>
+      <groupId>commons-cli</groupId>
+      <artifactId>commons-cli</artifactId>
+      <version>1.4</version>
+    </dependency>
     <dependency>
       <groupId>org.jetbrains</groupId>
       <artifactId>annotations</artifactId>
