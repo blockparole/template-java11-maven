@@ -1,4 +1,4 @@
-## template-java11-maven
+## template-java-maven
 
 ---
 
